@@ -11,7 +11,7 @@ app.get("/sobre", function(request, response){
     response.render('pages/about')
 })
 app.get("/contato", function(request, response){
-    response.render('pages/contato')
+    response.render('pages/contact')
 })
 app.listen(8080)
 console.log('Server is running');
